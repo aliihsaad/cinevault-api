@@ -1,0 +1,34 @@
+{
+  "watchlist": [
+    {
+      "id": 1,
+      "mediaType": "movie",
+      "tmdbId": 27205,
+      "title": "Inception",
+      "overview": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea.",
+      "poster_path": "/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+      "backdrop_path": "/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+      "release_date": "2010-07-16",
+      "vote_average": 8.4,
+      "watched": false,
+      "userRating": null,
+      "userNotes": "",
+      "addedAt": "2026-06-02"
+    },
+    {
+      "id": 2,
+      "mediaType": "tv",
+      "tmdbId": 1396,
+      "title": "Breaking Bad",
+      "overview": "A high school chemistry teacher turned criminal...",
+      "poster_path": "/poster.jpg",
+      "backdrop_path": "/backdrop.jpg",
+      "release_date": "2008-01-20",
+      "vote_average": 8.9,
+      "watched": false,
+      "userRating": 5,
+      "userNotes": "Amazing 10/10 ",
+      "addedAt": "2026-06-02"
+    }
+  ]
+}
