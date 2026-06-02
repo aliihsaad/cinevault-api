@@ -19,6 +19,25 @@ This API uses JSON Server to provide REST-style endpoints from a local `db.json`
 - JSON Server
 - Morgan
 
+## Deployment
+
+Live API:
+
+```text
+https://cinevault-api-2vhd.onrender.com
+```
+
+This deployed version runs JSON Server with `db.json` on Render. It is fine for class demo and testing, but watchlist changes are not guaranteed to persist permanently.
+
+Render's default filesystem is ephemeral, so changes written to local files like `db.json` can be lost when the service restarts or redeploys. For permanent watchlist data later, use a managed datastore or persistent storage option such as:
+
+- Render persistent disk
+- MongoDB Atlas
+- Render PostgreSQL
+- Supabase
+
+Source: [Render Persistent Disks docs](https://render.com/docs/disks)
+
 ## Getting Started
 
 ### 1. Install Dependencies
